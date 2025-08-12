@@ -1,1 +1,6 @@
-//your JS code here. If required.
+div{
+	width:200px;
+	height:200px;
+	border:2px solid black;
+	color:light blue;
+}
