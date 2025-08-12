@@ -1,22 +1,24 @@
 body {
-    height: 100vh; /* Make sure the body takes the full height of the viewport */
-    display: flex;
-    justify-content: center; /* Center horizontally */
-    align-items: center; /* Center vertically */
-    margin: 0; /* Remove default margin */
+    margin: 0;
+    height: 100vh; /* This is crucial for centering the box vertically in the viewport */
+    display: flex; /* Use flexbox to easily center the box */
+    justify-content: center; /* Centers the box horizontally */
+    align-items: center; /* Centers the box vertically */
 }
 
-.box {
+.centered-box {
+    /* Box Dimensions and Appearance */
     width: 200px;
     height: 200px;
-    border: 2px solid black;
     background-color: lightblue;
-    display: flex; /* Use flexbox to center the text */
-    justify-content: center; /* Center text horizontally */
-    align-items: center; /* Center text vertically */
+    border: 2px solid black;
+
+    /* Centered Text */
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
-.box p {
+.centered-box p {
     color: purple;
-    margin: 0; /* Remove default margin from paragraph */
 }
