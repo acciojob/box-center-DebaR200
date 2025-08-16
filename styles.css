@@ -1,10 +1,14 @@
 
+body{
+	display: flex; /* Makes the body a flex container */
+    justify-content: center; /* Horizontally centers the children */
+    align-items: center; /* Vertically centers the children */
+	min-height: 100vh; /* Ensures the body takes up the full viewport height */
+    margin: 0; /* Removes default body margin */
+}
 #box{
 	background-color: lightblue;
 	border:2px solid black;
-	/* position:relative;
-	left:300px;
-	top:300px; */
 	width:200px;
 	height:200px;
 	
