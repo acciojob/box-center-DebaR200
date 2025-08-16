@@ -2,9 +2,9 @@
 #box{
 	background-color: lightblue;
 	border:2px solid black;
-	position:relative;
+	/* position:relative;
 	left:300px;
-	top:300px;
+	top:300px; */
 	width:200px;
 	height:200px;
 	
