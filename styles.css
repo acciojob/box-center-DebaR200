@@ -1,21 +1,18 @@
 
-#box {
-    /* Sets the background and border */
-    background: lightblue;
-    border: 2px solid black;
-
-    /* Sets dimensions */
-    width: 200px;
-    height: 200px;
-
-    /* Centers the content inside this box using Flexbox */
-    display: flex;
+#box{
+	background-color: lightblue;
+	border:2px solid black;
+	position:relative;
+	left:300px;
+	top:300px;
+	width:200px;
+	height:200px;
+	
+	display: flex;
     justify-content: center;
     align-items: center;
 }
-
-#box1 {
-    /* Styles the text inside the box */
-    color: purple;
+p{
+	color: purple;
     font-weight: bold;
 }
