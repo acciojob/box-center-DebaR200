@@ -1,19 +1,21 @@
 
-#box{
-	background-color: lightblue;
-	position:relative;
-	left:300px;
-	top:300px;
-	color:purple;
-	width:200px;
-	height:200px;
-	border-width:2px;
-	border-style:solid;
-	border-color:black;
+#box {
+    /* Sets the background and border */
+    background: lightblue;
+    border: 2px solid black;
+
+    /* Sets dimensions */
+    width: 200px;
+    height: 200px;
+
+    /* Centers the content inside this box using Flexbox */
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
-#box1{
-	position:relative;
-	font-weight:bold;
-	top:45%;
-	left:30%;
+
+#box1 {
+    /* Styles the text inside the box */
+    color: purple;
+    font-weight: bold;
 }
